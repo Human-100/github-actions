@@ -48,7 +48,7 @@ useEffect(()=>{
 
   
 
-},[Result,msg])
+},[])
 
 
     let { transcript , browserSupportsSpeechRecognition } = useSpeechRecognition();
