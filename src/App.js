@@ -48,10 +48,10 @@ useEffect(()=>{
 
   
 
-},[Result])
+},[Result,msg])
 
 
-    let { transcript ,listening, browserSupportsSpeechRecognition } = useSpeechRecognition();
+    let { transcript , browserSupportsSpeechRecognition } = useSpeechRecognition();
 
 
     const stopListening = () => {
