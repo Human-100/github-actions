@@ -1,6 +1,6 @@
 
 import "./home.css"
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 
 
@@ -22,10 +22,10 @@ const Home = () => {
                 <li>As it is My Personal Project & No Company Is Backing it My Server's Capabilities are Limited So try Not to Overload The Usage. </li>
             </ol>
 
-            <Link  to="/Jhelum" className="link">
+            {/* <Link  to="/Jhelum" className="link">
             <button className="start">
             Start
-        </button></Link>
+        </button></Link> */}
 
 
             </div>
