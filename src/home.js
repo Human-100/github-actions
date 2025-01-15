@@ -8,13 +8,6 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
 
-    const greet = async ()=>{
-        const msg1 = new SpeechSynthesisUtterance()
-    msg1.text = "Welcome Sir What Can i Help You with Today"
-    await window.speechSynthesis.speak(msg1)  
-    
-    
-    }
     return (
         <>
 
@@ -30,7 +23,7 @@ const Home = () => {
             </ol>
 
             <Link  to="/Jhelum" className="link">
-            <button className="start" onClick={greet}>
+            <button className="start">
             Start
         </button></Link>
 
