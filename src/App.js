@@ -21,6 +21,7 @@ function App() {
     <div className="App">
       <h1>Frontend App hello sadasd</h1>
       <p>{message ? message : "Loading..."}</p>
+      <a><button>Go to About</button></a>
     </div>
   );
 }
