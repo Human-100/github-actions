@@ -3,7 +3,6 @@ import "./App.css";
 
 function App() {
   const [message, setMessage] = useState("");
-  const [message2, setMessage2] = useState("");
 
   // Fetch data from backend API
   useEffect(() => {
