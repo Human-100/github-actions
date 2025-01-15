@@ -41,14 +41,13 @@ const getCustomersData = async () => {
         .catch(error => console.log(error));
 
   };
-useEffect(()=>{       
-
-    msg.text = Result
-    window.speechSynthesis.speak(msg)
-
-  
-
-},[])
+  useEffect(() => {
+    if (Result) {
+      const msg = new SpeechSynthesisUtterance();
+      msg.text = Result;
+      window.speechSynthesis.speak(msg); // eslint-disable-line react-hooks/exhaustive-deps
+    }
+  }, [Result]);
 
 
     let { transcript , browserSupportsSpeechRecognition } = useSpeechRecognition();
