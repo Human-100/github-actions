@@ -1,9 +1,10 @@
 
 import "./App.css"
-import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
-import { useState,useEffect } from "react";
-import axios from 'axios'
+
 import { Link } from 'react-router-dom';
+
+
+
 
 
 
@@ -21,14 +22,14 @@ const App = () => {
 
                 <div className="main-content">
                 User:
-                <div contentEditable='true' data-text=" Ask anything, your words will appear here" >{transcript}</div>
+                <div contentEditable='true' data-text=" Ask anything, your words will appear here" ></div>
 
                
                     
                 </div>
                 <div className="user-content">
                 Jhelum : 
-                <div className="result" contentEditable='true' data-text="Processing your Request..." >{Result}</div>
+                <div className="result" contentEditable='true' data-text="Processing your Request..." ></div>
                 </div>
                 <div className="author">Made By Hanan</div>
 
@@ -38,8 +39,8 @@ const App = () => {
             <div className="btn-style">
                 
 
-                <button onClick={startListening}>Listen</button>
-                <button onClick={stopListening}>Flow</button>
+                <button >Listen</button>
+                <button >Flow</button>
                 <Link  to="/" className="link">
             <button className="start">
             go back
