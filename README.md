@@ -1,12 +1,14 @@
 ## This Is a Basic Implementation of Github Actions over a React App
 Here We Create and deploy this React App to github pages through automation CI/CD Github Action  
 
-### For this you only need to create a yaml file like deploy.yaml file and place it in .git/workflows directory
+### To Write these acttions
 
-**Then through this yaml file**
-1. Install Dependencies
-2. Create a Build or an Artifact
-3. Deploy over github pages or any hosting platform of your choice
+**You need to create yaml file like eg. "deploy.yaml" file and place them in .git/workflows directory**
+
+**Then through this yaml file here i am**
+1. Installing Dependencies
+2. Creating a Build or an Artifact
+3. Deploying it over github pages or any hosting platform of your choice
 
 **Example**
 ```yaml
